@@ -35,13 +35,6 @@ hr {
   color: white !important;
 }
 
-footer{
-  background-color: rgb(42,40,45);
-  color: white;
-  text-align: right;
-  padding-right: 30px;
-}
-
 .imagen-mini {
   width: 100px;
   height: auto;
@@ -62,8 +55,95 @@ ul{
 }
 
 .selected-lang:before{
-  counter: pointer;
   display: block;
   width: 32px;
   height: 32px;
 }
+
+footer{
+  background-color: rgb(42,40,45);
+  color: white;
+  text-align: center;
+  height: 30%;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.footer-content{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 650px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer-content hr{
+color: whitesmoke;
+margin: 0 auto;
+height: auto;
+width: 30%;
+}
+
+
+.redes-sociales{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 4;
+}
+
+.redes-sociales li{
+margin: 10px;
+}
+
+.redes-sociales a i{
+  color: white;
+font-size: 20px;
+}
+
+.redes-sociales i:hover{
+  transition: color .9s ease;
+  color: aqua;
+}
+
+.informacion-contacto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 4;
+}
+
+.informacion-contacto li{
+margin: 10px;
+}
+
+
+.footer-bottom{
+  background-color: black;
+  width: 100%;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+font-size: 14px;
+word-spacing: 2px;
+text-transform: capitalize;
+}
+
+.footer-bottom span{
+color: grey;
+  }
