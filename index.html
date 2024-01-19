@@ -15,60 +15,56 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body class="body">
     <header>
-      <div class="container-fluid py-1">
-        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(imagenes/prueba.PNG)">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarExample01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-                  <li class="nav-item"></li>
-                </ul>
-              </div>
-              <div class="lang-menu">
-                <div class="selected-lang">
-                  <img
-                    class="bandera-mini"
-                    src="imagenes/spain.png"
-                    alt="imagen de la bandera de españa"
-                  />
-                </div>
-              </div>
-            </div>
-          </nav>
-          <div
-            class="d-flex align-items-center justify-content-center flex-column"
-          >
-            <img
-              class="logodef"
-              src="imagenes/logodef.png"
-              alt="Logo personal"
-            />
-            <h2 class="mb-2">Moisés Jiménez Albiach</h2>
-            <p class="mb-4">Desarrollador Web Junior - Front-end</p>
-          </div>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron text-center">
+        <div class="intro">
+          <img src="imagenes/logodef.png" alt="" >
         </div>
       </div>
     </header>
 
+
+
+
+
+
+
+
+
+
+
+
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <h2 class="proyecto">Proyectos</h2>
           <hr />
           <p class="parrafo">
@@ -79,74 +75,101 @@
             Reflejan mis años de experiencia formandome para ser Desarrollador
             Web y Técnico de Sistemas Microinformáticos y Redes.
           </p>
-          <div class="col-md">
-            <div
-              class="card text-center border-warning h-100"
-              style="width: 18rem"
-            >
-              <div class="card-body">
-                <h4 class="card-title">Blackjack-js</h4>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card h-100 shadow" style="width: 25rem">
+              <div class="inner">
                 <img
-                  class="card-img-top"
+                  class="card-img-top img-fluid"
                   src="imagenes/blackjack.PNG"
                   alt="Imagen de la primera card del juego Blackjack"
                 />
-                <p class="card-text">
-                  Pon a prueba tu suerte y habilidades estratégicas en el
-                  emocionante juego de cartas Blackjack. Sumérgete en la
-                  experiencia única de desafiar a tu propia computadora en este
-                  apasionante duelo de cartas.
-                </p>
-                <a
-                  href="https://github.com/mojial/blackjack-js"
-                  class="btn btn-secondary"
-                  >+</a
+              </div>
+              <div class="card">
+                <div
+                  class="card-body p-10 d-flex flex-column align-items-center"
                 >
+                  <h5 class="card-title">Blackjack-js</h5>
+                  <p class="card-text">
+                    Pon a prueba tu suerte y habilidades estratégicas en el
+                    emocionante juego de cartas Blackjack. Sumérgete en la
+                    experiencia única de desafiar a tu propia computadora en
+                    este apasionante duelo de cartas.
+                  </p>
+                  <a href="#" class="btn btn-success mb-2"
+                    >Expandir Contenido</a
+                  >
+                  <a
+                    href="https://github.com/mojial/blackjack-js"
+                    class="card-link"
+                    ><i class="fa fa-github-square"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md">
-            <div
-              class="card text-center border-warning h-100"
-              style="width: 18rem"
-            >
-              <div class="card-body">
-                <h4 class="card-title">Generador de usuarios</h4>
+          <div class="col-md-4">
+            <div class="card h-100 shadow" style="width: 25rem">
+              <div class="inner">
                 <img
-                  class="card-img-top"
+                  class="card-img-top img-fluid"
                   src="imagenes/randomuser.PNG"
-                  alt="Card image cap"
+                  alt="Imagen de la segunda card de randomuser API"
                 />
-                <p class="card-text">
-                  Un simple gestor de datos sobre usuarios aletorios. Podrás
-                  obsevar su nombre, correo electronico, la fecha de su
-                  cumpleaños y su edad actual, donde se situa esta persona asi
-                  mismo de su telefono y contraseña.
-                </p>
-                <a href="https://github.com/mojial/Gestor-de-Usuarios-Aleatorios-RandomAPI" class="btn btn-secondary">+</a>
+              </div>
+              <div class="card">
+                <div
+                  class="card-body p-10 d-flex flex-column align-items-center"
+                >
+                  <h5 class="card-title">Generador de usuarios</h5>
+                  <p class="card-text">
+                    Un simple gestor de datos sobre usuarios aleatorios. Podrás
+                    observar su nombre, correo electrónico, la fecha de su
+                    cumpleaños y su edad actual, donde se sitúa esta persona así
+                    mismo de su teléfono y contraseña.
+                  </p>
+                  <a href="#" class="btn btn-success mb-2"
+                    >Expandir Contenido</a
+                  >
+                  <a
+                    href="https://github.com/mojial/Gestor-de-Usuarios-Aleatorios-RandomAPI"
+                    class="card-link"
+                    ><i class="fa fa-github-square"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md">
-            <div
-              class="card text-center border-warning h-100"
-              style="width: 18rem"
-            >
-              <div class="card-body">
-                <h4 class="card-title">Pokédex</h4>
+          <div class="col-md-4">
+            <div class="card h-100 shadow" style="width: 25rem">
+              <div class="inner">
                 <img
-                  class="card-img-top"
+                  class="card-img-top img-fluid"
                   src="imagenes/pokedex.PNG"
-                  alt="Card image cap"
+                  alt="Imagen de la tercera Card de PokedexAPI"
                 />
-                <p class="card-text">
-                  ¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo,
-                  descubrirás su forma shiny si este la poseé con tan solo hacer
-                  click en el botón para visualizar el Pokémon!
-                </p>
-                <a href="https://github.com/mojial/Pokedex-Simple-Shiny-Check-pokeAPI" class="btn btn-secondary">+</a>
+              </div>
+              <div class="card">
+                <div
+                  class="card-body p-10 d-flex flex-column align-items-center"
+                >
+                  <h5 class="card-title">Pokédex</h5>
+                  <p class="card-text">
+                    ¡Usa la búsqueda avanzada para encontrar Pokémon por su
+                    tipo, descubrirás su forma shiny si este la posee con tan
+                    solo hacer clic en el botón para visualizar el Pokémon!
+                  </p>
+                  <a href="#" class="btn btn-success mb-2"
+                    >Expandir Contenido</a
+                  >
+                  <a
+                    href="https://github.com/mojial/Pokedex-Simple-Shiny-Check-pokeAPI"
+                    class="card-link"
+                    ><i class="fa fa-github-square"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
@@ -157,16 +180,40 @@
 
   <footer>
     <div class="footer-content">
-      <img class="imagen-mini" src="imagenes/logodef.png" alt="logotipo personal"/>
+      <img
+        class="imagen-mini"
+        src="imagenes/logodef.png"
+        alt="logotipo personal"
+      />
       <h3>sobre mí</h3>
-      <hr>
-      <p>Soy un apasionado del mundo del front-end, el diseño y la experiencia de usuario (UX). Mi fascinación por la creación de interfaces cautivadoras y funcionales me ha llevado a explorar y perfeccionar mis habilidades en el ámbito del diseño web. Con una sólida base técnica y un ojo meticuloso para el detalle, busco constantemente superar los desafíos creativos y brindar experiencias digitales impactantes.</p>
+      <hr />
+      <p>
+        Soy un apasionado del mundo del front-end, el diseño y la experiencia de
+        usuario (UX). Mi fascinación por la creación de interfaces cautivadoras
+        y funcionales me ha llevado a explorar y perfeccionar mis habilidades en
+        el ámbito del diseño web. Con una sólida base técnica y un ojo
+        meticuloso para el detalle, busco constantemente superar los desafíos
+        creativos y brindar experiencias digitales impactantes.
+      </p>
       <ul class="redes-sociales">
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/mois%C3%A9s-jim%C3%A9nez-albiach-5414332a7/"><i class="fa fa-linkedin-square"></i></a></li>
-        <li><a href="https://github.com/mojial"><i class="fa fa-github"></i></a></li>
+        <li>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mois%C3%A9s-jim%C3%A9nez-albiach-5414332a7/"
+            ><i class="fa fa-linkedin-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/mojial"><i class="fa fa-github"></i></a>
+        </li>
       </ul>
     </div>
     <ul class="informacion-contacto">
@@ -184,17 +231,18 @@
       </li>
     </ul>
     <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954187370836!2d-0.41272689999999995!3d39.402542499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida%20Universitaria!5e0!3m2!1ses!2ses!4v1705509741448!5m2!1ses!2ses"
-    width="600"
-    height="250"
-    style="border: 0"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954187370836!2d-0.41272689999999995!3d39.402542499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida%20Universitaria!5e0!3m2!1ses!2ses!4v1705509741448!5m2!1ses!2ses"
+      width="600"
+      height="250"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
     <div class="footer-bottom">
       <p>
-        Copyright © 2024 Inc. | Información Legal | Política y Privacidad | Designed by <span>Moisés</span>
+        Copyright © 2024 Inc. | Información Legal | Política y Privacidad |
+        Designed by <span>Moisés</span>
       </p>
     </div>
   </footer>

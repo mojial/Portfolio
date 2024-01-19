@@ -10,6 +10,45 @@
   color: white;
 }
 
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-link{
+  color: black;
+  font-size: 30px;
+}
+
+.card-link:hover{
+  color: aqua;
+  transition: all 0.9s;
+}
 
 hr {
   height: 2px;
@@ -115,7 +154,7 @@ font-size: 20px;
 }
 
 .redes-sociales i:hover{
-  transition: color .9s ease;
+  transition: color 0.9s ease;
   color: aqua;
 }
 
