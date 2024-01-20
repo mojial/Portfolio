@@ -11,9 +11,14 @@
 }
 
 .container{
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 5%;
 }
+
+.container a {
+  text-decoration: none;
+}
+
 
 .card{
   display: flex;
@@ -60,23 +65,73 @@ hr {
   background-color: white;
 }
 
-.jumbotron-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .jumbotron {
-  padding: 1rem 1rem;
+  padding: 4rem 4rem;
+  background-image: url(imagenes/prueba.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  background-size: cover;
+  border-radius: 0px;
 }
 
-*.nav-link{
+.jumbotron h1{
+  color: white;
+}
+
+.intro{
+  padding-top: 10px;
+}
+
+.intro p{
+  color: whitesmoke;
+}
+
+.navbar-nav a {
+  color: white;
+  margin: 0 20px;
+  margin-top: 10px;
+}
+
+.navbar-toggler{
+  color:white;
+  border: none;
+  margin-top: 10px;
+  justify-content: left;
+}
+
+.navbar-toggler-icon{
+  color: white;
+  font-size: 30px;
+}
+
+.nav-link{
   color: white !important;
 }
+
+.nav-link:hover{
+  color: aqua !important;
+  border-bottom: 1px solid white;
+  margin-bottom: -1px;
+}
+
 
 .imagen-mini {
   width: 100px;
   height: auto;
+}
+
+.lang-menu {
+  margin-left: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-top: 10px;
+}
+
+.selected-lang {
+  margin-left: 1300px; /* Agrega un espacio entre los elementos de la navbar y la bandera */
 }
 
 .bandera-mini {
@@ -105,7 +160,7 @@ footer{
   text-align: center;
   height: 30%;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .footer-content{
@@ -185,4 +240,66 @@ text-transform: capitalize;
 
 .footer-bottom span{
 color: grey;
+  }
+
+  /* Servicios */
+
+  .servicio-app{
+    color: white;
+    padding: 2%;
+    background-image: url(imagenes/appfoto.png);
+  }
+
+  .servicio-web{
+    color: white;
+    padding: 2%;
+    background-image: url(imagenes/webfoto.png);
+  }
+
+  .servicio-ux{
+    color: white;
+    padding: 2%;
+    background-image: url(imagenes/uxfoto.png);
+  }
+
+  .servicio-mantenimiento{
+    color: white;
+    padding: 2%;
+    background-image: url(imagenes/mantenimientofoto.png);
+  }
+
+  .servicio-app:hover{
+    color: aqua;
+    cursor: pointer;
+  }
+
+  .servicio-web:hover{
+    color: aqua;
+    cursor: pointer;
+  }
+
+  .servicio-ux:hover{
+    color: aqua;
+    cursor: pointer;
+  }
+  
+  .servicio-mantenimiento:hover{
+    color: aqua;
+    cursor: pointer;
+  }
+
+  .servicio-app i{
+    font-size: 36px;
+  }
+
+  .servicio-web i{
+    font-size: 36px;
+  }
+
+  .servicio-ux i{
+    font-size: 36px;
+  }
+
+  .servicio-mantenimiento i{
+    font-size: 36px;
   }
