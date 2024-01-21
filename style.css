@@ -134,6 +134,12 @@ hr {
   margin-left: 1300px; /* Agrega un espacio entre los elementos de la navbar y la bandera */
 }
 
+.toggleLenguage {
+  color: white;
+  text-decoration: none;
+}
+
+
 .bandera-mini {
   width: 50px;
   height: auto;
