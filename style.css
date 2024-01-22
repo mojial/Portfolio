@@ -110,7 +110,7 @@ hr {
 }
 
 .nav-link:hover{
-  color: aqua !important;
+  color: rgb(181, 221, 221) !important;
   border-bottom: 1px solid white;
   margin-bottom: -1px;
 }
