@@ -131,7 +131,8 @@ hr {
 }
 
 .selected-lang {
-  margin-left: 1300px; /* Agrega un espacio entre los elementos de la navbar y la bandera */
+  width: 100%;
+  margin-left: 800px; /* Agrega un espacio entre los elementos de la navbar y la bandera */
 }
 
 .toggleLenguage {
