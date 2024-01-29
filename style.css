@@ -6,6 +6,10 @@
   color: white;
 }
 
+#proyecto{
+  color: white;
+}
+
 .parrafo{
   color: white;
 }
@@ -119,6 +123,8 @@ hr {
 .imagen-mini {
   width: 100px;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 .lang-menu {
@@ -196,7 +202,6 @@ margin: 0 auto;
 height: auto;
 width: 30%;
 }
-
 
 .redes-sociales{
   list-style: none;
@@ -309,4 +314,14 @@ color: grey;
 
   .servicio-mantenimiento i{
     font-size: 36px;
+  }
+  
+  .video-youtube{
+    margin: auto;
+    display: block;
+  }
+
+  .imagenes-servicios{
+    margin: auto;
+    display: block;
   }
