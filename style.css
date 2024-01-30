@@ -76,12 +76,11 @@ hr {
 
 .jumbotron {
   padding: 4rem 4rem;
-  background-image: url(imagenes/prueba.PNG);
+  background-image: url(imagenes/banner.PNG);
   background-repeat: no-repeat;
   background-position: center;
   height: auto;
-  background-size: cover;
-  border-radius: 0px;
+  background-size: cover; 
 }
 
 .jumbotron h1{
@@ -119,7 +118,7 @@ hr {
 }
 
 .nav-link:hover{
-  color: rgb(181, 221, 221) !important;
+  color: rgb(220, 187, 57) !important;
   border-bottom: 1px solid white;
   margin-bottom: -1px;
 }
@@ -335,10 +334,9 @@ color: grey;
 
   .container-form{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeta(2,1fr);
     grid-gap: 50px;
     margin-top: 90px;
     margin-bottom: 50px;
@@ -356,12 +354,11 @@ color: grey;
   }
 
   .container-form a{
-    font-size: 20px;
-    display: inline-block;
+    font-size: 15px;
     text-decoration: none;
     width: 100%;
-    margin-bottom: 15px;
-    color: black;
+    display: block;
+    color: whitesmoke;
     font-weight: 700;
   }
 
@@ -381,7 +378,7 @@ color: grey;
   }
 
   .container-form form textarea{
-    max-width: 530px;
+    max-width: 520px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
