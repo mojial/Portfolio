@@ -11,7 +11,7 @@ textoLenguaje.addEventListener('click', () => {
         textoLenguaje.innerHTML = "EN";
         imagenIdioma.src = "imagenes/engbandera.png";
         idiomaActual = "EN";
-        /* window.location.href = "index-eng/indexeng.html"; */
+        window.location.href = "index-eng/serviceseng.html";
     } else {
         // Cambiar a español
         textoLenguaje.innerHTML = "ES";
@@ -26,7 +26,7 @@ imagenIdioma.addEventListener('click', () => {
         textoLenguaje.innerHTML = "EN";
         imagenIdioma.src = "imagenes/engbandera.png";
         idiomaActual = "EN";
-        /* window.location.href = "index-eng/indexeng.html"; */
+        window.location.href = "index-eng/serviceseng.html";
     } else {
         // Cambiar a español
         textoLenguaje.innerHTML = "ES";
