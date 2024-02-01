@@ -64,6 +64,12 @@
   transition: all 0.9s;
 }
 
+.contenidoExpand{
+  display: none;
+  text-align: center;
+}
+
+
 hr {
   height: 2px;
   background-color: white; 

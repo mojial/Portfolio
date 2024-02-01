@@ -3,8 +3,6 @@ const textoLenguaje = document.querySelector('.toggleLenguage');
 
 let idiomaActual = "ES";
 
-console.log(textoLenguaje);
-
 textoLenguaje.addEventListener('click', () => {
     if (idiomaActual === "ES") {
         // Cambiar a inglés
